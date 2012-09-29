@@ -1,0 +1,168 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEADER_IMAGE	functions.php	/^		define( 'HEADER_IMAGE', '' );$/;"	d
+HEADER_IMAGE_HEIGHT	functions.php	/^		define( 'HEADER_IMAGE_HEIGHT', $custom_header_support['height'] );$/;"	d
+HEADER_IMAGE_WIDTH	functions.php	/^		define( 'HEADER_IMAGE_WIDTH', $custom_header_support['width'] );$/;"	d
+HEADER_TEXTCOLOR	functions.php	/^		define( 'HEADER_TEXTCOLOR', $custom_header_support['default-text-color'] );$/;"	d
+Twenty_Eleven_Ephemera_Widget	inc/widgets.php	/^	function Twenty_Eleven_Ephemera_Widget() {$/;"	f
+Twenty_Eleven_Ephemera_Widget	inc/widgets.php	/^class Twenty_Eleven_Ephemera_Widget extends WP_Widget {$/;"	c
+alloptions	inc/widgets.php	/^		$alloptions = wp_cache_get( 'alloptions', 'options' );$/;"	v
+alt_option_name	inc/widgets.php	/^		$this->alt_option_name = 'widget_twentyeleven_ephemera';$/;"	v
+archive_content	404.php	/^					$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s', 'twentyeleven' ), convert_smilies( ':)' ) ) . '<\/p>';$/;"	v
+attachment_size	image.php	/^									$attachment_size = apply_filters( 'twentyeleven_attachment_size', 848 );$/;"	v
+attachments	image.php	/^	$attachments = array_values( get_children( array( 'post_parent' => $post->post_parent, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID' ) ) );$/;"	v
+avatar_size	functions.php	/^							$avatar_size = 39;$/;"	v
+avatar_size	functions.php	/^						$avatar_size = 68;$/;"	v
+cache	inc/widgets.php	/^			$cache = array();$/;"	v
+cache	inc/widgets.php	/^		$cache = wp_cache_get( 'widget_twentyeleven_ephemera', 'widget' );$/;"	v
+categories_list	content-gallery.php	/^			$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );$/;"	v
+categories_list	content-image.php	/^					$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );$/;"	v
+categories_list	content-quote.php	/^				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );$/;"	v
+categories_list	content-single.php	/^			$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );$/;"	v
+categories_list	content.php	/^				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );$/;"	v
+category_description	category.php	/^						$category_description = category_description();$/;"	v
+choices	inc/theme-options.php	/^	$choices = array();$/;"	v
+class	functions.php	/^			$class = 'one';$/;"	v
+class	functions.php	/^			$class = 'three';$/;"	v
+class	functions.php	/^			$class = 'two';$/;"	v
+class	functions.php	/^	$class = '';$/;"	v
+class	showcase.php	/^								$class = '';$/;"	v
+class	showcase.php	/^								$class = 'class="active"';$/;"	v
+classes	inc/theme-options.php	/^		$classes = array( 'one-column' );$/;"	v
+classes	inc/theme-options.php	/^		$classes = array( 'two-column' );$/;"	v
+classes	inc/theme-options.php	/^	$classes = apply_filters( 'twentyeleven_layout_classes', $classes, $current_layout );$/;"	v
+color	functions.php	/^		$color = get_header_textcolor();$/;"	v
+color_scheme	inc/theme-options.php	/^		$color_scheme = $options['color_scheme'];$/;"	v
+color_scheme	inc/theme-options.php	/^	$color_scheme = $options['color_scheme'];$/;"	v
+color_scheme_options	inc/theme-options.php	/^	$color_scheme_options = array($/;"	v
+color_schemes	inc/theme-options.php	/^	$color_schemes = twentyeleven_color_schemes();$/;"	v
+content_width	functions.php	/^	$content_width = 584;$/;"	v
+count	functions.php	/^	$count = 0;$/;"	v
+counter_slider	showcase.php	/^					$counter_slider = 0;$/;"	v
+counter_slider	showcase.php	/^				    	$counter_slider = 0;$/;"	v
+current_layout	inc/theme-options.php	/^	$current_layout = $options['theme_layout'];$/;"	v
+current_layout	sidebar.php	/^$current_layout = $options['theme_layout'];$/;"	v
+custom_header_support	functions.php	/^	$custom_header_support = array($/;"	v
+default_background_color	functions.php	/^		$default_background_color = '1d1d1d';$/;"	v
+default_background_color	functions.php	/^		$default_background_color = 'f1f1f1';$/;"	v
+default_options	inc/theme-options.php	/^	$default_options = twentyeleven_get_default_theme_options();$/;"	v
+default_theme_options	inc/theme-options.php	/^	$default_theme_options = array($/;"	v
+defaults	inc/theme-options.php	/^	$defaults = twentyeleven_get_default_theme_options();$/;"	v
+ephemera	inc/widgets.php	/^		$ephemera = new WP_Query( $ephemera_args );$/;"	v
+ephemera_args	inc/widgets.php	/^		$ephemera_args = array($/;"	v
+farbtastic	inc/theme-options.js	/^var farbtastic;$/;"	v
+feature_class	showcase.php	/^							$feature_class = 'feature-image large';$/;"	v
+feature_class	showcase.php	/^						$feature_class = 'feature-image small';$/;"	v
+feature_class	showcase.php	/^					$feature_class = 'feature-text';$/;"	v
+featured	showcase.php	/^					$featured = new WP_Query( $featured_args );$/;"	v
+featured_args	showcase.php	/^					$featured_args = array($/;"	v
+flush_widget_cache	inc/widgets.php	/^	function flush_widget_cache() {$/;"	f
+form	inc/widgets.php	/^	function form( $instance ) {$/;"	f
+header_image	header.php	/^				$header_image = get_header_image();$/;"	v
+header_image_height	header.php	/^							$header_image_height = HEADER_IMAGE_HEIGHT;$/;"	v
+header_image_height	header.php	/^							$header_image_height = get_custom_header()->height;$/;"	v
+header_image_width	header.php	/^							$header_image_width  = HEADER_IMAGE_WIDTH;$/;"	v
+header_image_width	header.php	/^							$header_image_width  = get_custom_header()->width;$/;"	v
+header_image_width	header.php	/^						$header_image_width = HEADER_IMAGE_WIDTH;$/;"	v
+header_image_width	header.php	/^						$header_image_width = get_theme_support( 'custom-header', 'width' );$/;"	v
+header_image_width	showcase.php	/^						$header_image_width = HEADER_IMAGE_WIDTH;$/;"	v
+header_image_width	showcase.php	/^						$header_image_width = get_theme_support( 'custom-header', 'width' );$/;"	v
+help	inc/theme-options.php	/^	$help = '<p>' . __( 'Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:', 'twentyeleven' ) . '<\/p>' .$/;"	v
+image	content-gallery.php	/^						$image = array_shift( $images );$/;"	v
+image	functions.php	/^		$image = get_header_image();$/;"	v
+image	showcase.php	/^						$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), array( $header_image_width, $header_image_width ) );$/;"	v
+image_img_tag	content-gallery.php	/^						$image_img_tag = wp_get_attachment_image( $image->ID, 'thumbnail' );$/;"	v
+images	content-gallery.php	/^					$images = get_children( array( 'post_parent' => $post->ID, 'post_type' => 'attachment', 'post_mime_type' => 'image', 'orderby' => 'menu_order', 'order' => 'ASC', 'numberposts' => 999 ) );$/;"	v
+instance	inc/widgets.php	/^		$instance = $old_instance;$/;"	v
+layout_options	inc/theme-options.php	/^	$layout_options = array($/;"	v
+layouts	inc/theme-options.php	/^	$layouts = twentyeleven_layouts();$/;"	v
+link_color	inc/theme-options.php	/^	$link_color = $options['link_color'];$/;"	v
+link_url	inc/widgets.php	/^							$link_url = get_permalink();$/;"	v
+link_url	inc/widgets.php	/^						$link_url = twentyeleven_url_grabber();$/;"	v
+metadata	image.php	/^									$metadata = wp_get_attachment_metadata();$/;"	v
+more	showcase.php	/^						$more = 0;$/;"	v
+next_attachment_url	image.php	/^			$next_attachment_url = get_attachment_link( $attachments[ $k ]->ID );$/;"	v
+next_attachment_url	image.php	/^			$next_attachment_url = get_attachment_link( $attachments[ 0 ]->ID );$/;"	v
+next_attachment_url	image.php	/^		$next_attachment_url = wp_get_attachment_url();$/;"	v
+number	inc/widgets.php	/^		$number = isset( $instance['number'] ) ? absint( $instance['number'] ) : 10;$/;"	v
+number	inc/widgets.php	/^ 			$number = 10;$/;"	v
+options	inc/theme-options.php	/^		$options = twentyeleven_get_theme_options();$/;"	v
+options	inc/theme-options.php	/^	$options  = twentyeleven_get_theme_options();$/;"	v
+options	inc/theme-options.php	/^	$options = twentyeleven_get_theme_options();$/;"	v
+options	sidebar.php	/^$options = twentyeleven_get_theme_options();$/;"	v
+output	inc/theme-options.php	/^	$output = $defaults = twentyeleven_get_default_theme_options();$/;"	v
+recent	showcase.php	/^					$recent = new WP_Query( $recent_args );$/;"	v
+recent_args	showcase.php	/^					$recent_args = array($/;"	v
+schemes	inc/theme-options.php	/^	$schemes = twentyeleven_color_schemes();$/;"	v
+screen	inc/theme-options.php	/^	$screen = get_current_screen();$/;"	v
+show_sep	content-gallery.php	/^			$show_sep = true; ?>$/;"	v
+show_sep	content-quote.php	/^				$show_sep = true; ?>$/;"	v
+show_sep	content.php	/^				$show_sep = true; ?>$/;"	v
+sidebar	inc/theme-options.php	/^	$sidebar = '<p><strong>' . __( 'For more information:', 'twentyeleven' ) . '<\/strong><\/p>' .$/;"	v
+site_description	header.php	/^	$site_description = get_bloginfo( 'description', 'display' );$/;"	v
+sticky	showcase.php	/^					$sticky = get_option( 'sticky_posts' );$/;"	v
+style	functions.php	/^			$style = ' style="color:#' . $color . '"';$/;"	v
+style	functions.php	/^			$style = ' style="display:none"';$/;"	v
+tag_description	tag.php	/^						$tag_description = tag_description();$/;"	v
+tag_list	content-featured.php	/^			$tag_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+tag_list	content-single.php	/^			$tag_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+tags_list	content-gallery.php	/^			$tags_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+tags_list	content-image.php	/^					$tags_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+tags_list	content-quote.php	/^				$tags_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+tags_list	content.php	/^				$tags_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );$/;"	v
+text_color	functions.php	/^	$text_color = get_header_textcolor();$/;"	v
+theme_options	functions.php	/^	$theme_options = twentyeleven_get_theme_options();$/;"	v
+theme_page	inc/theme-options.php	/^	$theme_page = add_theme_page($/;"	v
+thumbnail_size	showcase.php	/^									$thumbnail_size = 'large-feature';$/;"	v
+thumbnail_size	showcase.php	/^									$thumbnail_size = 'small-feature';$/;"	v
+title	inc/widgets.php	/^		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Ephemera', 'twentyeleven' ) : $instance['title'], $instance, $this->id_base);$/;"	v
+title	inc/widgets.php	/^		$title = isset( $instance['title']) ? esc_attr( $instance['title'] ) : '';$/;"	v
+total_images	content-gallery.php	/^						$total_images = count( $images );$/;"	v
+twentyeleven_admin_enqueue_scripts	inc/theme-options.php	/^function twentyeleven_admin_enqueue_scripts( $hook_suffix ) {$/;"	f
+twentyeleven_admin_header_image	functions.php	/^function twentyeleven_admin_header_image() { ?>$/;"	f
+twentyeleven_admin_header_style	functions.php	/^function twentyeleven_admin_header_style() {$/;"	f
+twentyeleven_auto_excerpt_more	functions.php	/^function twentyeleven_auto_excerpt_more( $more ) {$/;"	f
+twentyeleven_body_classes	functions.php	/^function twentyeleven_body_classes( $classes ) {$/;"	f
+twentyeleven_color_schemes	inc/theme-options.php	/^function twentyeleven_color_schemes() {$/;"	f
+twentyeleven_comment	functions.php	/^function twentyeleven_comment( $comment, $args, $depth ) {$/;"	f
+twentyeleven_content_nav	functions.php	/^function twentyeleven_content_nav( $nav_id ) {$/;"	f
+twentyeleven_continue_reading_link	functions.php	/^function twentyeleven_continue_reading_link() {$/;"	f
+twentyeleven_custom_excerpt_more	functions.php	/^function twentyeleven_custom_excerpt_more( $output ) {$/;"	f
+twentyeleven_customize_preview_js	inc/theme-options.php	/^function twentyeleven_customize_preview_js() {$/;"	f
+twentyeleven_customize_register	inc/theme-options.php	/^function twentyeleven_customize_register( $wp_customize ) {$/;"	f
+twentyeleven_enqueue_color_scheme	inc/theme-options.php	/^function twentyeleven_enqueue_color_scheme() {$/;"	f
+twentyeleven_excerpt_length	functions.php	/^function twentyeleven_excerpt_length( $length ) {$/;"	f
+twentyeleven_footer_sidebar_class	functions.php	/^function twentyeleven_footer_sidebar_class() {$/;"	f
+twentyeleven_get_default_link_color	inc/theme-options.php	/^function twentyeleven_get_default_link_color( $color_scheme = null ) {$/;"	f
+twentyeleven_get_default_theme_options	inc/theme-options.php	/^function twentyeleven_get_default_theme_options() {$/;"	f
+twentyeleven_get_theme_options	inc/theme-options.php	/^function twentyeleven_get_theme_options() {$/;"	f
+twentyeleven_header_style	functions.php	/^function twentyeleven_header_style() {$/;"	f
+twentyeleven_layout_classes	inc/theme-options.php	/^function twentyeleven_layout_classes( $existing_classes ) {$/;"	f
+twentyeleven_layouts	inc/theme-options.php	/^function twentyeleven_layouts() {$/;"	f
+twentyeleven_option_page_capability	inc/theme-options.php	/^function twentyeleven_option_page_capability( $capability ) {$/;"	f
+twentyeleven_page_menu_args	functions.php	/^function twentyeleven_page_menu_args( $args ) {$/;"	f
+twentyeleven_posted_on	functions.php	/^function twentyeleven_posted_on() {$/;"	f
+twentyeleven_print_link_color_style	inc/theme-options.php	/^function twentyeleven_print_link_color_style() {$/;"	f
+twentyeleven_settings_field_color_scheme	inc/theme-options.php	/^function twentyeleven_settings_field_color_scheme() {$/;"	f
+twentyeleven_settings_field_layout	inc/theme-options.php	/^function twentyeleven_settings_field_layout() {$/;"	f
+twentyeleven_settings_field_link_color	inc/theme-options.php	/^function twentyeleven_settings_field_link_color() {$/;"	f
+twentyeleven_setup	functions.php	/^function twentyeleven_setup() {$/;"	f
+twentyeleven_theme_options_add_page	inc/theme-options.php	/^function twentyeleven_theme_options_add_page() {$/;"	f
+twentyeleven_theme_options_help	inc/theme-options.php	/^function twentyeleven_theme_options_help() {$/;"	f
+twentyeleven_theme_options_init	inc/theme-options.php	/^function twentyeleven_theme_options_init() {$/;"	f
+twentyeleven_theme_options_render_page	inc/theme-options.php	/^function twentyeleven_theme_options_render_page() {$/;"	f
+twentyeleven_theme_options_validate	inc/theme-options.php	/^function twentyeleven_theme_options_validate( $input ) {$/;"	f
+twentyeleven_url_grabber	functions.php	/^function twentyeleven_url_grabber() {$/;"	f
+twentyeleven_widgets_init	functions.php	/^function twentyeleven_widgets_init() {$/;"	f
+update	inc/widgets.php	/^	function update( $new_instance, $old_instance ) {$/;"	f
+utility_text	content-featured.php	/^				$utility_text = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink<\/a>.', 'twentyeleven' );$/;"	v
+utility_text	content-featured.php	/^				$utility_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink<\/a>.', 'twentyeleven' );$/;"	v
+utility_text	content-single.php	/^				$utility_text = __( 'This entry was posted by <a href="%6$s">%5$s<\/a>. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink<\/a>.', 'twentyeleven' );$/;"	v
+utility_text	content-single.php	/^				$utility_text = __( 'This entry was posted in %1$s and tagged %2$s by <a href="%6$s">%5$s<\/a>. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink<\/a>.', 'twentyeleven' );$/;"	v
+utility_text	content-single.php	/^				$utility_text = __( 'This entry was posted in %1$s by <a href="%6$s">%5$s<\/a>. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink<\/a>.', 'twentyeleven' );$/;"	v
+widget	inc/widgets.php	/^	function widget( $args, $instance ) {$/;"	f
+widget_ops	inc/widgets.php	/^		$widget_ops = array( 'classname' => 'widget_twentyeleven_ephemera', 'description' => __( 'Use this widget to list your recent Aside, Status, Quote, and Link posts', 'twentyeleven' ) );$/;"	v
