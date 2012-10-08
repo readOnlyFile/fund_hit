@@ -1,0 +1,21 @@
+1. 新建数据库 fund_hit 
+
+2. 代码中有 fund_hit.sql 文件， 将其导入到新建的fund_hit 数据库中
+
+3. 修改 wp-config.php 文件， 根据实际情况配置数据库用户名，密码和主机地址
+
+4. 修改hosts文件(/etc/hosts)，在文件最后面添加如下内容 
+        127.0.0.1 fund.hit.edu.cn
+
+5. 修改apache配置文件(/etc/apache2/sites-available/default),在文件最后添加一下内容：
+
+    <VirtualHost *:80>
+        ServerName fund.hit.edu.cn
+        DocumentRoot /var/www/fund
+        SetEnv RUN_MODE development
+    </VirtualHost>
+
+
+6. 重启apache服务，命令：sudo service apache2 restart
+
+7. 浏览器访问 http://fund.hit.edu.cn , 访问http://fund.hit.edu.cn/wp-admin可登录。用户名:admin 密码:admin
