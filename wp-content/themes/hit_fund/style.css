@@ -115,9 +115,11 @@ body {
 #roll-content
 {
     background:#b2dfee;
-    height:100%;
-    padding:15px;
+    height:263px;
+    padding:0 15px;
     overflow:hidden;
+    position:relative;
+    z-index:99;
 }
 #roll-content .words
 {
@@ -705,11 +707,12 @@ a:hover {
 }
 .head 
 {
-    z-index:900;
+    z-index:999;
     color:black;
     padding:5px;
     background-color:#ccc;
     margin-top:5px;
+    height:22px;
 }
 .head .head-name {
     margin:0 7px;
@@ -721,6 +724,8 @@ a:hover {
 }
 .head a.more {
     clear:both;
+    position:relative;
+    *top:-22px;
     float:right;
     display:block;
 }
