@@ -18,4 +18,4 @@
 
 6. 重启apache服务，命令：sudo service apache2 restart
 
-7. 浏览器访问 http://fund.hit.edu.cn , 访问http://fund.hit.edu.cn/wp-admin可登录。用户名:admin 密码:admin
+7. 浏览器访问 http://fund.hit.edu.cn , 访问 http://fund.hit.edu.cn/wp-admin  可登录。用户名:admin 密码:admin
