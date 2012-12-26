@@ -17,14 +17,14 @@
  * */
 $pagenames = get_hit_config('fast_way');
 ?>
-<div id="secondary" class="widget-area" role="complementary" style = "width:14%">
+<div id="secondary" class="widget-area" role="complementary" style = "margin-top:26px; width:14%">
 
         <aside id="sidebar-page">
             <ul>
 <?php foreach($pagenames as $img => $name):
         $page_info = get_page_by_title($name);
 ?>
-    <li><a href =  "<?=$page_info->guid?>"><img src = "<?=get_template_directory_uri() .  '/images/links/' . $img;?>.jpg" /><?//=$page_info->post_title?></a></li>
+    <li><a href =  "<?=$page_info->guid?>"><img style="margin-top:8px" src = "<?=get_template_directory_uri() .  '/images/links/' . $img;?>.jpg" /><?//=$page_info->post_title?></a></li>
 <?php endforeach;?>
             </ul>
         </aside>

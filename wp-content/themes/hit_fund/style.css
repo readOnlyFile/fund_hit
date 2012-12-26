@@ -109,13 +109,13 @@ body {
 
 #home-recent-donate
 {
-    height:300px;
+    height:400px;
     overflow:hidden;
 }
 #roll-content
 {
     background:#b2dfee;
-    height:263px;
+    height:353px;
     padding:0 15px;
     overflow:hidden;
     position:relative;
@@ -357,7 +357,7 @@ body, input, textarea {
 	line-height: 1.625;
 }
 body {
-	background: #e2e2e2;
+	background: white;
 }
 #page {
 	background: #fff;
@@ -710,7 +710,7 @@ a:hover {
     z-index:999;
     color:black;
     padding:5px;
-    background-color:#ccc;
+    background-color:#eee;
     margin-top:5px;
     height:22px;
 }
@@ -732,6 +732,12 @@ a:hover {
 #decription p {
     margin: 8px 0;
     font-size:12px;
+}
+#news
+{
+	margin-top:10px;
+	width:320px;
+	float:right;
 }
 #news ul {
     font-size:12px;
@@ -2292,7 +2298,14 @@ p.comment-form-comment {
 }
 
 #test {
-width:150px;height:150px;position:absolute;margin:20px auto;bottom:-200px;right:20px;background:url(http://fund.tongji.edu.cn/image/ad.gif);border:2px dotted red;
+width:200px;
+height:130px;
+position:absolute;
+margin:20px auto;
+bottom:-150px;
+right:0px;
+background:url(http://fund.hit.edu.cn/wp-content/themes/hit_fund/images/links/ad.png);
+border:2px;
 }
 
 #supplementary {
@@ -2783,7 +2796,7 @@ width:150px;height:150px;position:absolute;margin:20px auto;bottom:-200px;right:
     padding-bottom:5px;
 }
 #related-page a {
-    background:#ccc;
+    background:#eee;
     color:black;
     display:block;
     padding:3px;
@@ -2791,7 +2804,7 @@ width:150px;height:150px;position:absolute;margin:20px auto;bottom:-200px;right:
     float:left;
 }
 #related-page a:hover ,#related-page a.current-page {
-    background:#1982d1;
+    background:rgba(78, 160, 250, 0.44);
 }
 .clear {
     clear:both;

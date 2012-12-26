@@ -35,28 +35,7 @@ else
 </div>
 </div>
                 </aside>
-                <aside id = "home-recent-announce">
-                <h3 class = "head" ><span class="head-name">公告栏</span><label>Notice</label><a href= "<?=get_category_link(get_cat_ID(get_hit_config('cat.announce.name')));?>" class="more">更多</a></h3>
-<ul>
-<?php 
-$args = array(
-    'posts_per_page' => 3,
-    'paged' => 1,
-    'category_name' => get_hit_config('cat.announce.name'),
-);
-$query = new WP_Query($args);
-$recent_posts = wp_get_recent_posts($query);
-while ($query->have_posts()):
-    $query->next_post();
-    $post_id = $query->post->ID;
-    $post_title = urldecode($query->post->post_name);
-?>
-    <li><a href = "<?=get_permalink($post_id)?>" title = "<?=$post_title?>"><?=$post_title?></a></li>
-<?php
-endwhile;
-?>
-</ul>
-                </aside>
+
 		</div><!-- #primary -->
 <script type = "text/javascript">
 var roll = document.getElementById("roll-content");

@@ -630,6 +630,11 @@ $hit_config = array(
 
     'cat' => array(
 
+		//新闻中心的文章
+		'news' => array(
+			'name' => 'news'
+		),
+
         // 捐赠档案文章的分类名，所有文章都写在这个分类中，通过该名字找到
         'donate_archives' => array(
             'name' => '捐赠档案'
