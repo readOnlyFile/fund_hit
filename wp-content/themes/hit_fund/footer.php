@@ -10,7 +10,6 @@
  */
 ?>
 
-	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
 
@@ -25,9 +24,10 @@
 			<div id="site-generator">
                 <h2>哈尔滨工业大学基金会 版权所有</h2>
 			</div>
-	</footer><!-- #colophon -->
+			
+			<a href="http://www.baidu.com"><div id="test"></div></a>
+	</footer><!-- #colophon -->	
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
 
 </body>

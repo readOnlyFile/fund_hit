@@ -2290,6 +2290,11 @@ p.comment-form-comment {
 #colophon {
 	clear: both;
 }
+
+#test {
+width:150px;height:150px;position:absolute;margin:20px auto;bottom:-200px;right:20px;background:url(http://fund.tongji.edu.cn/image/ad.gif);border:2px dotted red;
+}
+
 #supplementary {
 	border-top: 1px solid #ddd;
 	padding: 1.625em 7.6%;
