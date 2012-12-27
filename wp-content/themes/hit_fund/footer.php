@@ -26,7 +26,6 @@
                 <h2>哈尔滨工业大学基金会 版权所有</h2>
 			</div>
 			
-			<div id="test"></div>
 	</footer><!-- #colophon -->	
 </div><!-- #page -->
 <?php wp_footer(); ?>

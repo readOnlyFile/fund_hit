@@ -622,6 +622,7 @@ $hit_config = array(
         // 首页滚动显示的文章，如果这里配置了，就显示配置的页面，如果没有，就默认显示当年的捐赠页面
         // 如：今年为2012年，就滚动显示名字为 2012 的文章
         'scroll_page' => array(
+			'name' => '当年捐赠'
         )
     ),
 
@@ -632,7 +633,7 @@ $hit_config = array(
 
 		//新闻中心的文章
 		'news' => array(
-			'name' => 'news'
+			'name' => '新闻中心'
 		),
 
         // 捐赠档案文章的分类名，所有文章都写在这个分类中，通过该名字找到
@@ -651,10 +652,11 @@ $hit_config = array(
     // image name => page name
     'fast_way' => array(
         'guide' => '捐赠方式',
-        'project' => '筹款项目',
-        'way' => '同济大学2011年社会捐赠助学金一览表',
+        'project' => '学生培养',
+//        'project' => '筹款项目',
+        'way' => '哈工大2011年社会捐赠奖励金一览表',
         'tax-free' => '免税政策',
-        'year' => '年度捐赠'
+        'year' => '年度捐赠说明'
     ),
 
     'links' => array(

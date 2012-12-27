@@ -22,7 +22,7 @@ get_header(); ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri();  ?>/css/slides.global.css">
 	
 	<script src="<?php echo get_template_directory_uri();  ?>/js/jquery.min.js" type="text/javascript"></script>
-	<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<script src="<?php echo get_template_directory_uri();  ?>/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="<?php echo get_template_directory_uri();  ?>/js/slides.min.jquery.js" type="text/javascript"></script>
 	<script>
 		$(function(){
@@ -52,7 +52,7 @@ get_header(); ?>
 
 <!--************新闻中心***************-->
             <div id = "news">
-            <div class = "head"><span class = "head-name">新闻中心</span><label>News</label><a href = "<?=get_category_link(get_cat_ID(get_hit_config('cat.donate_archives.name')))?>" class = "more">更多</a></div>
+            <div class = "head"><span class = "head-name">新闻中心</span><label>News</label><a href = "<?=get_category_link(get_cat_ID(get_hit_config('cat.news.name')))?>" class = "more">更多</a></div>
 <ul>
 <?php 
 $args = array(

@@ -2295,6 +2295,7 @@ p.comment-form-comment {
 
 #colophon {
 	clear: both;
+	position: relative;
 }
 
 #test {
@@ -2302,8 +2303,8 @@ width:200px;
 height:130px;
 position:absolute;
 margin:20px auto;
-bottom:-150px;
-right:0px;
+bottom:-400px;
+right:-203px;
 background:url(http://fund.hit.edu.cn/wp-content/themes/hit_fund/images/links/ad.png);
 border:2px;
 }

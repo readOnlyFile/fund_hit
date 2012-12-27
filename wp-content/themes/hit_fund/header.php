@@ -115,6 +115,8 @@
 			<?php endif; // end check for removed header image ?>
 
 
+	<div id="test"></div>
+
 	</header><!-- #branding -->
 
 

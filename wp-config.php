@@ -21,7 +21,7 @@ define('DB_NAME', 'fund_hit');
 define('DB_USER', 'root');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'vpcm');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');

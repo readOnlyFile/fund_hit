@@ -17,6 +17,23 @@ get_header(); ?>
 		<div id="primary" class = "primary-big">
 			<div id="content" role="main">
 
+
+<p>当前位置: <a href="<?php echo get_option('home'); ?>/">首页</a> &gt;&gt;
+<?php
+if ($post->post_parent) // if have parent pages
+{
+	$ancestors=get_post_ancestors($post->ID);// get parent's page ID to an array
+	$root=count($ancestors)-1; // get top parent's page ID index at array
+	for($i=$root;$i>-1;$i--) // output the array with links for all parent pages
+	{
+?>
+		<a href="<?php echo get_page_link($ancestors[$i]); //output page link  ?>"><?=get_the_title($ancestors[$i])//output page title?></a> &gt;&gt;
+<?php
+	}
+}
+	the_title();
+?>
+
                 <?php 
                     while ( have_posts() ) :
                         the_post(); 
@@ -49,7 +66,7 @@ get_header(); ?>
 
                         foreach($children_array as $post) { ?>
 
-                            <a href = "<?=$post->guid?>" class = "<?=($pid == $post->ID)?'current-page':'';?>"><?=$post->post_title?></a>
+                            <a href = "<?=$post->guid?>" class = "<?=($pid == $post->ID)?'current-page':'';?>"><?=$post->post_title?></a> 
 
                         <?php } ?>
                         <div class = "clear"></div>

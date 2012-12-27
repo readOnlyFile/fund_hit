@@ -13,9 +13,11 @@ get_header(); ?>
 			<div id="content" role="main">
 
 				<header class="page-header">
-					<h1 class="page-title"><?php
-						printf( __( '当前位置: %s', 'twentyeleven' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-					?></h1>
+
+				<p>当前位置: <a href="http://fund.hit.edu.cn/" title="首页">首页</a>&gt;&gt;<?php $categorys = get_the_category(); $category = $categorys[0];echo(get_category_parents($category->term_id,true,'')); ?></p>
+					<h1 class="page-title">
+
+					</h1>
 
 					<?php
 						$category_description = category_description();
