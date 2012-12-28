@@ -62,6 +62,8 @@ if ($post->post_parent) // if have parent pages
                             $children_array = get_children($args);
                         }
 
+						if($pid != 188 && $parent_id != 188)  //法律法规页面
+						{
                         echo "<div id = 'related-page'>";
 
                         foreach($children_array as $post) { ?>
@@ -69,9 +71,11 @@ if ($post->post_parent) // if have parent pages
                             <a href = "<?=$post->guid?>" class = "<?=($pid == $post->ID)?'current-page':'';?>"><?=$post->post_title?></a> 
 
                         <?php } ?>
-                        <div class = "clear"></div>
-                        </div> <!--related-page-->
+						<?php
+                        echo "<div class = 'clear'></div>";
+                        echo "</div> <!--related-page-->";
 
+						}?>
 					<?php get_template_part( 'content', 'page' ); ?>
 
 					<?php //comments_template( '', true ); ?>

@@ -13,7 +13,9 @@
 
 		<div id="secondary" class = "widget-area" role = "complementary">
                 <aside id = "home-recent-donate">
-<h3 class = "head"><span class="head-name">最新捐赠</span></h3>
+<h3 class = "head"><span class="head-name">最新捐赠</span>
+<a href = "<?=get_page_link(get_page_by_title(get_hit_config('page.scroll_page.name'))->ID)?>" class = "more">更多</a>
+</h3>
 <?php 
 if (! $year = get_hit_config('page.scroll_page.name'))
     $year = date("Y");
